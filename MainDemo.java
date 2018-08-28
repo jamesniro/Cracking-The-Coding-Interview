@@ -44,6 +44,19 @@ public class MainDemo {
 		
 		System.out.println(url.repalceSpaces(chars, 13));
 		// end of test function 
+		
+		// test function for Palindrome permutation 
+		
+		ParlindromePerm  checkPerm = new ParlindromePerm();
+		String testStringPerm = "aabaaaa";
+		String testStringPerm1 = "code";
+		System.out.println(checkPerm.isPermutationOfPalindrome(testStringPerm));
+		System.out.println(checkPerm.isPermutationOfPalindrome(testStringPerm1));
+		System.out.println(checkPerm.isPermutationSecondMethod(testStringPerm));
+		System.out.println(checkPerm.isPermutationSecondMethod(testStringPerm1));
+		// end of test function d
 	}
+	
+	
 
 }
